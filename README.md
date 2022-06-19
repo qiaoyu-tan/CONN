@@ -1,4 +1,4 @@
-# MGAE
+# CONN
 
 This is the official pytorch implementation of **Collaborative Graph Neural Networks for Attributed Network Embedding**. 
 
@@ -14,10 +14,10 @@ The datasets used in our paper can be automatically downlowad.
 ## Quick Start
 Test on node classification task:
 ```
-python main_planetoid.py --dataset "Cora" 
+python main_classify.py --dataset "PubMed" 
 ```
 
 Test on link prediction task:
 ```
-python main_planetoid.py --dataset "Cora" 
+python main_lp.py --dataset "PubMed" 
 ```
