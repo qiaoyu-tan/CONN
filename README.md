@@ -1,5 +1,23 @@
-Collaborative Graph Neural Networks in Pytorch
+# MGAE
 
-The main function for classification is main.py 
+This is the official pytorch implementation of **Collaborative Graph Neural Networks for Attributed Network Embedding**. 
 
-The main function for link prediction task is main._lp.py
+## Installation
+
+The required packages can be installed by running `pip install -r requirements.txt`.
+
+## Collaborative Graph Neural Networks
+
+## Datasets
+The datasets used in our paper can be automatically downlowad. 
+
+## Quick Start
+Test on node classification task:
+```
+python main_planetoid.py --dataset "Cora" 
+```
+
+Test on link prediction task:
+```
+python main_planetoid.py --dataset "Cora" 
+```
